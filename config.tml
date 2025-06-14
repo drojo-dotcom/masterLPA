@@ -1,0 +1,21 @@
+[theme]
+# Colores del Club de Natación
+primaryColor = "#00CED1"          # Azul turquesa (botones principales)
+backgroundColor = "#FFFFFF"       # Fondo blanco
+secondaryBackgroundColor = "#F0F8FF"  # Azul muy claro para sidebar
+textColor = "#262730"            # Texto oscuro
+
+[server]
+# Configuración del servidor
+maxUploadSize = 200              # Máximo 200MB para archivos Excel
+enableCORS = false
+enableXsrfProtection = true
+
+[browser]
+# Configuración del navegador
+gatherUsageStats = false         # No enviar estadísticas de uso
+showErrorDetails = true          # Mostrar detalles de errores en desarrollo
+
+[global]
+# Configuración global
+developmentMode = false          # Modo producción
